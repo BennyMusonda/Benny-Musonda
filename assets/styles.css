@@ -1,13 +1,10 @@
-/* assets/styles.css */
-
-/* Base Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Variables */
+
 :root {
   --bg: #f9f9f9;
   --text: #222;
@@ -15,7 +12,7 @@
   --font: 'Segoe UI', sans-serif;
 }
 
-/* Global Styles */
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -24,7 +21,7 @@ body {
   min-height: 100vh;
 }
 
-/* Header / Hero */
+
 #hero {
   text-align: center;
   padding: 4rem 1rem;
@@ -32,7 +29,7 @@ body {
   color: #fff;
 }
 
-/* Navigation */
+
 nav {
   margin-top: 1rem;
 }
@@ -42,14 +39,14 @@ nav a {
   text-decoration: none;
 }
 
-/* Main Container */
+
 main {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* Projects Section */
+
 #projects {
   margin-top: 2rem;
 }
@@ -69,7 +66,7 @@ main {
   text-decoration: none;
 }
 
-/* About Section */
+
 #about {
     background: rgb(245, 243, 243);
   margin: 4rem 0;
@@ -103,7 +100,7 @@ main {
   margin-bottom: 0.5rem;
 }
 
-/* Contact Section */
+
 #contact {
   margin: 4rem 0;
   text-align: center;
@@ -143,7 +140,7 @@ main {
   color: var(--text);
 }
 
-/* Skill Bars */
+
 .skills-bars {
   margin-top: 2rem;
 }
@@ -173,7 +170,7 @@ main {
   transition: width 1.2s ease-out;
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   #hero {
     padding: 2rem 1rem;
@@ -191,7 +188,7 @@ main {
   }
 }
 
-/* Footer */
+
   footer {
   text-align: center;
   padding: 1rem;
