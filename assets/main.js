@@ -1,6 +1,3 @@
-// assets/main.js
-
-// Smooth scrolling for nav links
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', event => {
     event.preventDefault();
@@ -12,7 +9,7 @@ document.querySelectorAll('nav a').forEach(link => {
   });
 });
 
-// Form submission handling
+
 const form = document.getElementById('contact-form');
 const statusEl = document.getElementById('form-status');
 
@@ -39,7 +36,7 @@ form.addEventListener('submit', async event => {
   }
 });
 
-// Animate skill bars on scroll
+
 const skillBars = document.querySelectorAll('.bar');
 const observer = new IntersectionObserver(
   (entries, obs) => {
