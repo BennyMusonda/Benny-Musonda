@@ -25,6 +25,7 @@ and make it easy for hiring teams to explore my work and get in touch.
 - Modern UI/UX with responsive design
 
 ---
+## View Live site [here](https://bennymusonda.github.io/Benny-Musonda/)
 
 ## Highlights
 
