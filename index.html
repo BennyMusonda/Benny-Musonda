@@ -1,101 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- PAGE SETUP -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Benny Musonda - Full-Stack Web Developer Portfolio">
   <title>Benny Musonda | Portfolio</title>
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
-  
 <body>
-  <header id="hero">
-    <h1>Benny Musonda</h1>
-    <p>Full-Stack Developer | PHP ● MySQL ● JavaScript</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+  <!-- HEADER AND NAVIGATION -->
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <a href="#home" class="logo">BM.</a>
+
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-button" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+      </div>
     </nav>
+
+    <div class="hero-content reveal">
+      <p class="eyebrow">FULL-STACK WEB DEVELOPER</p>
+      <h1>Benny <span>Musonda</span></h1>
+      <p class="hero-text">
+        I build clean, practical and data-driven web solutions that solve real problems.
+      </p>
+      <a href="#projects" class="button">View My Work</a>
+    </div>
   </header>
-  
 
-  <main> 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project-list">
+  <main>
+    <!-- PROJECTS SECTION -->
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured Project</h2>
+      </div>
 
-       
-        <article class="project-card">
+      <article class="project-card reveal">
+        <div>
+          <p class="project-number">01</p>
           <h3>AgriLink Zambia</h3>
-          <p>A platform connecting farmers with buyers in real time.</p>
-          <a href="https://github.com/" target="_blank">View Repo</a>
-        </article>
-      </div>
-    </section>
-
-   
-    <section id="about">
-      <h2>About Me</h2>
-      
-      <div class="skills-bars">
-        <div class="skill">
-          <span>PHP & MySQL</span>
-          <div class="bar" data-level="70%"></div>
-        </div>
-        <div class="skill">
-          <span>JavaScript</span>
-          <div class="bar" data-level="55%"></div>
-        </div>
-        <div class="skill">
-          <span> Graphic Designer</span>
-          <div class="bar" data-level="50%"></div>
-        </div>
-      </div>
-
-      
-      <div class="about-content">
-        <img src="assets/images/benny 2.jpg" alt="Benny Musonda" class="about-photo"/>
-        <div class="about-text">
           <p>
-            Hi, I’m Benny Musonda—a full-stack web developer based in Chililabombwe, Zambia.
-            I specialize in building data-driven platforms that empower local communities, 
-            with strengths in PHP, MySQL, JavaScript, and clean UI/UX design.
+            A digital marketplace designed to connect farmers and buyers in real time.
+            The project focuses on useful technology for agricultural communities.
           </p>
+          <div class="tags">
+            <span>HTML & CSS</span>
+            <span>MySQL</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="https://github.com/" target="_blank" rel="noopener" class="text-link">
+            View Repository →
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Building with purpose.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="photo-wrap reveal">
+          <img src="assets/images/profile.jpeg" alt="Benny Musonda" class="about-photo">
+        </div>
+
+        <div class="about-text reveal">
+          <p>
+            Hi, I'm Benny Musonda, a full-stack web developer based in Chililabombwe, Zambia.
+            I enjoy building platforms that are functional, simple to use and focused on real-world needs.
+          </p>
+
           <ul class="skills-list">
-            <li>Backend Development (PHP, MySQL)</li>
-            <li>Frontend Development (HTML, CSS, JavaScript)</li>
-            <li>Graphic Designer</li>
-            <li>API Integration & Troubleshooting Aprentice</li>
+            <li>Backend Development — PHP & MySQL</li>
+            <li>Frontend Development — HTML, CSS & JavaScript</li>
+            <li>Graphic Design</li>
+            <li>API Integration & Troubleshooting</li>
           </ul>
+
+          <div class="skills-bars">
+            <div class="skill">
+              <div class="skill-label"><span>PHP & MySQL</span><span>70%</span></div>
+              <div class="bar"><span data-level="70%"></span></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-label"><span>JavaScript</span><span>55%</span></div>
+              <div class="bar"><span data-level="55%"></span></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-label"><span>Graphic Design</span><span>50%</span></div>
+              <div class="bar"><span data-level="50%"></span></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form id="contact-form" action="https://formspree.io/f/mrblenzj" method="POST">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's build something.</h2>
+        <p>Have a project or idea? Send me a message.</p>
+      </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="_replyto" required />
+      <form id="contact-form"
+            action="https://formspree.io/f/mrblenzj"
+            method="POST"
+            class="contact-form reveal">
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
 
-        <button type="submit">Send Message</button>
-        <p id="form-status"></p>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="_replyto" placeholder="you@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+        </div>
+
+        <button type="submit" class="button" id="submit-button">Send Message</button>
+        <p id="form-status" aria-live="polite"></p>
       </form>
     </section>
   </main>
 
-  
+  <!-- FOOTER SECTION -->
   <footer class="footer">
-    <p>© 2025 Benny Musonda | <a href="mailto:bennymusonda92@gmail.com">Email Us</a></p>
+    <p>© <span id="year"></span> Benny Musonda. Built with HTML, CSS & JavaScript.</p>
+    <a href="mailto:bennymusonda92@gmail.com">bennymusonda92@gmail.com</a>
   </footer>
 
+  <!-- JAVASCRIPT FILE -->
   <script src="assets/main.js"></script>
 </body>
 </html>
