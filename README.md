@@ -13,3 +13,6 @@ A simple portfolio rebuilt with HTML, CSS and JavaScript.
 
 ## Contact form
 Using formspree as an email handler.
+
+## Live Demo
+Check out the Live Demo [('https://bennymusonda.github.io/Benny-Musonda/')]
