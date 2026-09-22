@@ -12,6 +12,4 @@ A simple portfolio rebuilt with HTML, CSS and JavaScript.
 - UPPERCASE comments at the start of each code section
 
 ## Contact form
-Using formspree as an email handler:
-
-https://formspree.io/f/mrblenzj
+Using formspree as an email handler.
