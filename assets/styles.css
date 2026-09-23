@@ -369,7 +369,7 @@ a {
 }
 
 .footer a {
-  color: var(--accent);
+  color: var(--muted);
   text-decoration: none;
 }
 
