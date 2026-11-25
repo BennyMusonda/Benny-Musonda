@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286 64" role="img" aria-labelledby="title">
+  <title id="title">benny.dev wordmark</title>
+  <g fill="#142433">
+    <path d="M4 37 14 27 24 37 14 47Z"/>
+    <path d="M17 17 27 7 57 37 47 47Z"/>
+    <path d="M38 17 48 7 68 27 58 37Z"/>
+    <text x="85" y="46" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-1.6">benny.dev</text>
+  </g>
+</svg>
