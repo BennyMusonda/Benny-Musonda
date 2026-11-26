@@ -4,7 +4,7 @@ Personal portfolio for Benny Musonda, a Zambia-based full-stack developer.
 
 ## Live demo
 
-[View the portfolio](https://bennymusonda.github.io/Benny-Musonda/)
+[View the portfolio](https://bennymusonda.vercel.app/)
 
 ## Project structure
 ```text
