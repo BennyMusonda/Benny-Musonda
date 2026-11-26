@@ -8,7 +8,6 @@ Personal portfolio for Benny Musonda, a Zambia-based full-stack developer.
 
 ## Project structure
 
-```text
 .
 ├── frontend/          # Portfolio website
 │   ├── index.html
@@ -18,7 +17,6 @@ Personal portfolio for Benny Musonda, a Zambia-based full-stack developer.
 │   └── robots.txt
 ├── backend/           # Planned API and database server
 └── README.md
-```
 
 ## Technologies
 
