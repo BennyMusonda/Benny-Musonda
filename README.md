@@ -7,7 +7,7 @@ Personal portfolio for Benny Musonda, a Zambia-based full-stack developer.
 [View the portfolio](https://bennymusonda.github.io/Benny-Musonda/)
 
 ## Project structure
-
+```text
 .
 ├── frontend/          # Portfolio website
 │   ├── index.html
@@ -17,7 +17,7 @@ Personal portfolio for Benny Musonda, a Zambia-based full-stack developer.
 │   └── robots.txt
 ├── backend/           # Planned API and database server
 └── README.md
-
+```
 ## Technologies
 
 ### Frontend
